@@ -8,3 +8,9 @@ Project Life Cycle:
 - Github
 - Docker Containers 
 - Aws Load Balancer
+
+
+- <b> Steps Followed </b>
+
+- <b> Project Descrption </b>
+- The project uses the concept of Infrastructre as code and uses terraform for creating a architecture on the AWS, Also I have used a jenkins pipeline to execute Ansible Playbooks over two webservers which i created using terraform, after that the ansible playbook also pulls the latest code from the github and creates a docker image and also runs it on port 3100, Later on i have created a Application Load Balancer and target group with terraform which also adds this two web server to the target group of the load balancer which health checks the port 3100 over web server
