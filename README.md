@@ -30,6 +30,7 @@ provider "aws" {
     region = "ap-south-1"
 }
 
+4) Now i can access the docker containers which are created on the instance through the load balancer DNS
 
 
 resource "aws_security_group" "terraform-prac" {
