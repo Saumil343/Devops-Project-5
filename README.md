@@ -271,3 +271,4 @@ resource "aws_lb_target_group_attachment" "test2" {
 
 
 ```
+4) Now i can access the docker container which are hosting the web app using the load balancer DNS 
